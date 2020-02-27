@@ -11,3 +11,5 @@ Then it pushes the image to a remote private insecure registry.
 I let you see the .circleci/config.yml content.
 Do not forget the other files.
 Change the url of the private insecure registry, and the user & password to connect. Of course, the examples I give are not my actual user & password. But I leave some real text to show the syntax.
+
+If more info needed on the content, please mail me pierdobauce@yahoo.fr and I will add more details.
