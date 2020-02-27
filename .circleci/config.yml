@@ -56,7 +56,7 @@ jobs:
          name: Connecting the remote insecure registry
          command: |
            # Put your user and password. Better: use global variables for this.
-           docker login -u pierdo -p pierd0 pierdobauce.ddns.net:5000
+           docker login -u youruser -p yourpassword pierdobauce.ddns.net:5000
       - run:
           name: Create and push image
           command: |
