@@ -61,7 +61,7 @@ jobs:
           name: Create and push image
           command: |
              # Choose the platforms. Here I push to my registry.
-             docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -f Dockerfile_extract --push -t pierdobauce.ddns.net:5000/extract .
+             docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -f Dockerfile_show_platform --push -t pierdobauce.ddns.net:5000/show_platform .
 
 
             
